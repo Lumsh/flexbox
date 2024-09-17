@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+
+
+
 .container {
    
 display: flex;
@@ -13,8 +16,9 @@ justify-content: space-evenly
     display: flex;
     flex-direction: row;
     justify-content: left;
-  
     gap: 10px;
+    margin-top: 10px;
+    margin-top: 10px;
     
 }
 
@@ -35,32 +39,46 @@ justify-content: space-evenly
 .box3 {
     background-color: rgb(241, 163, 90);
     height: 650px;
-    width: 650px;
-    flex-grow: 1;
+    width: 1500px;
 }
+
+    .smallbox {
+        background-color: rgb(5, 5, 5);
+        height: 50%;
+        width: 50%;
+
+    }
+    
+    
+
 
 .box4 {
     background-color: gray;
     height: 60px;
     width: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     
 }
 
 .box5 {
-    display: flex;
-    justify-content: left;
     background-color: rgb(139, 116, 86);
     height: 60px;
-    width: 500px;
-    flex-grow: 1;
-    margin: 5px;
+    width: 1300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  
 }
 
 .box6 {
     display: flex;
     justify-content: left;
     background-color: blue;
-    height: 70px;
+    height: 84px;
+    margin-top: 10px;
+    
+    
     
 
 }
@@ -72,11 +90,10 @@ justify-content: space-evenly
     background-color: white;
     height: 50px;
     width: 150px;
-    outline-color: black ;
-    outline-style: solid;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-left: 5px;
     font-size: x-small;
+    font-family: sans-serif;
 
 
 }
@@ -84,18 +101,70 @@ justify-content: space-evenly
 .box8 {
     display: flex;
     flex-direction: row;
-    justify-content: right;
     background-color: white;
     height: 50px;
     width: 150px;
-    outline-color: black ;
-    outline-style: solid;
     margin-left: auto;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-right: 5px;
     font-size: x-small;
+    font-family: sans-serif;
     
 }
+
+.container3 {
+    position: absolute;
+    background-color:rgb(186, 241, 245);
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    margin-top: 430px;
+    margin-left: 750px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container4 {
+    position: absolute;
+    background-color:rgb(186, 241, 245);
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    margin-top: 430px;
+    margin-left: 1150px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container5 {
+    position: absolute;
+    background-color:rgb(186, 241, 245);
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    margin-top: 430px;
+    margin-left: 1530px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 
 
 
