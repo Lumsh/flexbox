@@ -12,6 +12,8 @@ justify-content: space-evenly
 .container2 {
     display: flex;
     flex-direction: row;
+    justify-content: left;
+  
     gap: 10px;
     
 }
@@ -41,10 +43,12 @@ justify-content: space-evenly
     background-color: gray;
     height: 60px;
     width: 500px;
-    margin: 5px;
+    
 }
 
 .box5 {
+    display: flex;
+    justify-content: left;
     background-color: rgb(139, 116, 86);
     height: 60px;
     width: 500px;
@@ -52,27 +56,48 @@ justify-content: space-evenly
     margin: 5px;
 }
 
-.box6{
+.box6 {
     display: flex;
     justify-content: left;
     background-color: blue;
     height: 70px;
-    width: 1900px;
+    
 
 }
 
 .box7 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     background-color: white;
-    height: 30px;
-    width: 200px;
-    font-size:x-small;
-    outline-color:  black;
+    height: 50px;
+    width: 150px;
+    outline-color: black ;
     outline-style: solid;
+    margin-top: 9px;
+    margin-left: 5px;
+    font-size: x-small;
+
 
 }
+
+.box8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    outline-color: black ;
+    outline-style: solid;
+    margin-left: auto;
+    margin-top: 9px;
+    margin-right: 5px;
+    font-size: x-small;
+    
+}
+
+
 
 
 
